@@ -36,3 +36,10 @@ const parent = React.createElement("div", {id:"parent"},
     const root = ReactDOM.createRoot(document.getElementById("root"));
     
     root.render(parent);
+
+// create using js 
+
+    //    const heading = document.createElement("h1");
+    //    heading.innerHTML = "Hello";
+    //    const root = document.getElementById("root");
+    //    root.appendChild(heading);
